@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial -- -j4 -l4
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.165s] [ 50%] Built target talker
+[0.173s] [100%] Built target listener
+[0.192s] Invoked command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial -- -j4 -l4
+[0.205s] Invoking command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial
+[0.219s] -- Install configuration: ""
+[0.222s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/talker
+[0.222s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/listener
+[0.223s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/package_run_dependencies/gimbal_serial
+[0.223s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/parent_prefix_path/gimbal_serial
+[0.223s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.sh
+[0.224s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.dsv
+[0.224s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.bash
+[0.224s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.sh
+[0.224s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.zsh
+[0.224s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.dsv
+[0.224s] -- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.dsv
+[0.225s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/packages/gimbal_serial
+[0.225s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig.cmake
+[0.225s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig-version.cmake
+[0.228s] -- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.xml
+[0.230s] Invoked command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial

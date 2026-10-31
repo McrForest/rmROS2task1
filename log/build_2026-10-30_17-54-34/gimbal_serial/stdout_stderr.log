@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/talker
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/listener
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/package_run_dependencies/gimbal_serial
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/parent_prefix_path/gimbal_serial
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.sh
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.dsv
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.bash
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.sh
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.zsh
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.dsv
+-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.dsv
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/packages/gimbal_serial
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig.cmake
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig-version.cmake
+-- Up-to-date: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.xml

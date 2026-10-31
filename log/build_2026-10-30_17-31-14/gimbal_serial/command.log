@@ -1,0 +1,6 @@
+Invoking command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mcr/Workspace/RM/rosBasics/src/gimbal_serial -DCMAKE_INSTALL_PREFIX=/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial
+Invoked command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mcr/Workspace/RM/rosBasics/src/gimbal_serial -DCMAKE_INSTALL_PREFIX=/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial
+Invoking command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial -- -j4 -l4
+Invoked command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial -- -j4 -l4
+Invoking command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial
+Invoked command in '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial

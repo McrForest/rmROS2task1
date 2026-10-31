@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000079] (-) JobUnselected: {'identifier': 'gimbal_serial'}
+[0.000107] (-) JobUnselected: {'identifier': 'pub_pkg'}
+[0.000131] (sub_pkg) JobQueued: {'identifier': 'sub_pkg', 'dependencies': OrderedDict()}
+[0.000156] (sub_pkg) JobStarted: {'identifier': 'sub_pkg'}
+[0.010057] (sub_pkg) JobProgress: {'identifier': 'sub_pkg', 'progress': 'cmake'}
+[0.010999] (sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/mcr/Workspace/RM/rosBasics/src/sub_pkg', '-DCMAKE_INSTALL_PREFIX=/home/mcr/Workspace/RM/rosBasics/install/sub_pkg'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.063910] (sub_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098637] (-) TimerEvent: {}
+[0.119444] (sub_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125216] (sub_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.194703] (sub_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199944] (-) TimerEvent: {}
+[0.201454] (sub_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.201611] (sub_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.201700] (sub_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.202141] (sub_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.281671] (sub_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.287344] (sub_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.287563] (sub_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.287598] (sub_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.288881] (sub_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300195] (-) TimerEvent: {}
+[0.400440] (-) TimerEvent: {}
+[0.409846] (sub_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.475043] (sub_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501723] (-) TimerEvent: {}
+[0.513077] (sub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.516340] (sub_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.520689] (sub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.530373] (sub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.538926] (sub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.567900] (sub_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.571097] (sub_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601963] (-) TimerEvent: {}
+[0.657824] (sub_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.676606] (sub_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.702139] (-) TimerEvent: {}
+[0.709003] (sub_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.714477] (sub_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.789528] (sub_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.789943] (sub_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.802328] (-) TimerEvent: {}
+[0.863924] (sub_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.864780] (sub_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.899704] (sub_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.903239] (-) TimerEvent: {}
+[0.962425] (sub_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.962704] (sub_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.962741] (sub_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.963117] (sub_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.964339] (sub_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.964534] (sub_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.964837] (sub_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.965444] (sub_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.972005] (sub_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.974728] (sub_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/mcr/Workspace/RM/rosBasics/build/sub_pkg\n'}
+[0.984341] (sub_pkg) CommandEnded: {'returncode': 0}
+[0.987191] (sub_pkg) JobProgress: {'identifier': 'sub_pkg', 'progress': 'build'}
+[0.987212] (sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg', '--', '-j4', '-l4'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.003518] (-) TimerEvent: {}
+[1.038401] (sub_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/listener.dir/src/listener.cpp.o\n'}
+[1.104418] (-) TimerEvent: {}
+[1.205271] (-) TimerEvent: {}
+[1.305612] (-) TimerEvent: {}
+[1.405924] (-) TimerEvent: {}
+[1.506313] (-) TimerEvent: {}
+[1.606572] (-) TimerEvent: {}
+[1.706948] (-) TimerEvent: {}
+[1.807308] (-) TimerEvent: {}
+[1.907698] (-) TimerEvent: {}
+[2.008420] (-) TimerEvent: {}
+[2.109300] (-) TimerEvent: {}
+[2.209556] (-) TimerEvent: {}
+[2.309927] (-) TimerEvent: {}
+[2.410146] (-) TimerEvent: {}
+[2.510500] (-) TimerEvent: {}
+[2.610906] (-) TimerEvent: {}
+[2.711283] (-) TimerEvent: {}
+[2.812013] (-) TimerEvent: {}
+[2.912635] (-) TimerEvent: {}
+[3.013086] (-) TimerEvent: {}
+[3.113238] (-) TimerEvent: {}
+[3.213526] (-) TimerEvent: {}
+[3.313854] (-) TimerEvent: {}
+[3.414078] (-) TimerEvent: {}
+[3.514556] (-) TimerEvent: {}
+[3.614934] (-) TimerEvent: {}
+[3.715281] (-) TimerEvent: {}
+[3.815701] (-) TimerEvent: {}
+[3.916108] (-) TimerEvent: {}
+[4.016548] (-) TimerEvent: {}
+[4.116841] (-) TimerEvent: {}
+[4.217199] (-) TimerEvent: {}
+[4.317464] (-) TimerEvent: {}
+[4.417799] (-) TimerEvent: {}
+[4.518245] (-) TimerEvent: {}
+[4.618542] (-) TimerEvent: {}
+[4.718966] (-) TimerEvent: {}
+[4.820217] (-) TimerEvent: {}
+[4.920471] (-) TimerEvent: {}
+[5.020746] (-) TimerEvent: {}
+[5.121028] (-) TimerEvent: {}
+[5.221246] (-) TimerEvent: {}
+[5.324858] (-) TimerEvent: {}
+[5.425039] (-) TimerEvent: {}
+[5.525359] (-) TimerEvent: {}
+[5.625604] (-) TimerEvent: {}
+[5.725928] (-) TimerEvent: {}
+[5.826284] (-) TimerEvent: {}
+[5.926618] (-) TimerEvent: {}
+[6.026896] (-) TimerEvent: {}
+[6.127142] (-) TimerEvent: {}
+[6.227633] (-) TimerEvent: {}
+[6.328278] (-) TimerEvent: {}
+[6.428543] (-) TimerEvent: {}
+[6.529405] (-) TimerEvent: {}
+[6.629727] (-) TimerEvent: {}
+[6.730064] (-) TimerEvent: {}
+[6.832356] (-) TimerEvent: {}
+[6.932771] (-) TimerEvent: {}
+[7.033066] (-) TimerEvent: {}
+[7.133355] (-) TimerEvent: {}
+[7.233878] (-) TimerEvent: {}
+[7.334204] (-) TimerEvent: {}
+[7.350752] (sub_pkg) StdoutLine: {'line': b'[100%] Linking CXX executable listener\n'}
+[7.434310] (-) TimerEvent: {}
+[7.534635] (-) TimerEvent: {}
+[7.625525] (sub_pkg) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.634771] (-) TimerEvent: {}
+[7.638072] (sub_pkg) CommandEnded: {'returncode': 0}
+[7.638388] (sub_pkg) JobProgress: {'identifier': 'sub_pkg', 'progress': 'install'}
+[7.648660] (sub_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/sub_pkg'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.655037] (sub_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.655216] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/lib/sub_pkg/listener\n'}
+[7.659025] (sub_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr/Workspace/RM/rosBasics/install/sub_pkg/lib/sub_pkg/listener" to ""\n'}
+[7.659340] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/ament_index/resource_index/package_run_dependencies/sub_pkg\n'}
+[7.659385] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/ament_index/resource_index/parent_prefix_path/sub_pkg\n'}
+[7.659469] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/environment/ament_prefix_path.sh\n'}
+[7.669410] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/environment/ament_prefix_path.dsv\n'}
+[7.669566] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/environment/path.sh\n'}
+[7.670073] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/environment/path.dsv\n'}
+[7.670168] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/local_setup.bash\n'}
+[7.670209] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/local_setup.sh\n'}
+[7.670285] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/local_setup.zsh\n'}
+[7.670356] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/local_setup.dsv\n'}
+[7.670393] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/package.dsv\n'}
+[7.670484] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/ament_index/resource_index/packages/sub_pkg\n'}
+[7.670549] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/cmake/sub_pkgConfig.cmake\n'}
+[7.670581] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/cmake/sub_pkgConfig-version.cmake\n'}
+[7.670622] (sub_pkg) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/sub_pkg/share/sub_pkg/package.xml\n'}
+[7.672547] (sub_pkg) CommandEnded: {'returncode': 0}
+[7.688073] (sub_pkg) JobEnded: {'identifier': 'sub_pkg', 'rc': 0}
+[7.688496] (-) EventReactorShutdown: {}

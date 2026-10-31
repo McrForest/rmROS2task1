@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000066] (-) JobUnselected: {'identifier': 'gimbal_serial'}
+[0.000094] (-) JobUnselected: {'identifier': 'sub_pkg'}
+[0.000118] (pub_pkg) JobQueued: {'identifier': 'pub_pkg', 'dependencies': OrderedDict()}
+[0.000143] (pub_pkg) JobStarted: {'identifier': 'pub_pkg'}
+[0.007532] (pub_pkg) JobProgress: {'identifier': 'pub_pkg', 'progress': 'cmake'}
+[0.008205] (pub_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/mcr/Workspace/RM/rosBasics/src/pub_pkg', '-DCMAKE_INSTALL_PREFIX=/home/mcr/Workspace/RM/rosBasics/install/pub_pkg'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/pub_pkg', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/pub_pkg'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099365] (-) TimerEvent: {}
+[0.196236] (pub_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199574] (-) TimerEvent: {}
+[0.302299] (-) TimerEvent: {}
+[0.331064] (pub_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.345201] (pub_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402488] (-) TimerEvent: {}
+[0.441272] (pub_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.446228] (pub_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.448186] (pub_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.449646] (pub_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.451470] (pub_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.502638] (-) TimerEvent: {}
+[0.542956] (pub_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.547373] (pub_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.547719] (pub_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.547922] (pub_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.549708] (pub_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.603687] (-) TimerEvent: {}
+[0.685104] (pub_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.704116] (-) TimerEvent: {}
+[0.753051] (pub_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.782853] (pub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.785619] (pub_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.791351] (pub_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801637] (pub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.804189] (-) TimerEvent: {}
+[0.812502] (pub_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.841491] (pub_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.844628] (pub_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.905786] (-) TimerEvent: {}
+[0.928766] (pub_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.948559] (pub_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.975842] (pub_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.982490] (pub_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.006609] (-) TimerEvent: {}
+[1.059466] (pub_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.059644] (pub_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.106934] (-) TimerEvent: {}
+[1.133968] (pub_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.134244] (pub_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.168768] (pub_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.207025] (-) TimerEvent: {}
+[1.219508] (pub_pkg) StderrLine: {'line': b'CMake Error at CMakeLists.txt:33 (add_executable):\n'}
+[1.219660] (pub_pkg) StderrLine: {'line': b'  add_executable cannot create target "talker" because another target with\n'}
+[1.219699] (pub_pkg) StderrLine: {'line': b'  the same name already exists.  The existing target is an executable created\n'}
+[1.219731] (pub_pkg) StderrLine: {'line': b'  in source directory "/home/mcr/Workspace/RM/rosBasics/src/pub_pkg".  See\n'}
+[1.219761] (pub_pkg) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[1.219791] (pub_pkg) StderrLine: {'line': b'\n'}
+[1.219821] (pub_pkg) StderrLine: {'line': b'\n'}
+[1.222983] (pub_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.223068] (pub_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.223100] (pub_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.223131] (pub_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.223307] (pub_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.223448] (pub_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.223943] (pub_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.226087] (pub_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.226173] (pub_pkg) StdoutLine: {'line': b'See also "/home/mcr/Workspace/RM/rosBasics/build/pub_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[1.234749] (pub_pkg) CommandEnded: {'returncode': 1}
+[1.264785] (pub_pkg) JobEnded: {'identifier': 'pub_pkg', 'rc': 1}
+[1.275479] (-) EventReactorShutdown: {}

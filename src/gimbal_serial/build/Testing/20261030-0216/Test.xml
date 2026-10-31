@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20261030-0216-Experimental"
+	Name="mcr-vmUbuntu"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="mcr-vmUbuntu"
+	OSRelease="6.8.0-138-generic"
+	OSVersion="#138~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug  7 13:43:15 UTC "
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="5878"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2419.21"
+	>
+	<Testing>
+		<StartDateTime>Oct 30 17:48 CST</StartDateTime>
+		<StartTestTime>1793353695</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 30 17:48 CST</EndDateTime>
+		<EndTestTime>1793353695</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

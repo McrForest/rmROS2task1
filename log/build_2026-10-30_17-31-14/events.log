@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000081] (gimbal_serial) JobQueued: {'identifier': 'gimbal_serial', 'dependencies': OrderedDict()}
+[0.000826] (gimbal_serial) JobStarted: {'identifier': 'gimbal_serial'}
+[0.010027] (gimbal_serial) JobProgress: {'identifier': 'gimbal_serial', 'progress': 'cmake'}
+[0.010422] (gimbal_serial) Command: {'cmd': ['/usr/bin/cmake', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial', '-DCMAKE_INSTALL_PREFIX=/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086775] (gimbal_serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099820] (-) TimerEvent: {}
+[0.139735] (gimbal_serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.155287] (gimbal_serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199917] (-) TimerEvent: {}
+[0.226608] (gimbal_serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.233732] (gimbal_serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.233902] (gimbal_serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.233944] (gimbal_serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.236707] (gimbal_serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300164] (-) TimerEvent: {}
+[0.323237] (gimbal_serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.326327] (gimbal_serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.326540] (gimbal_serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.326911] (gimbal_serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.342624] (gimbal_serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400338] (-) TimerEvent: {}
+[0.480002] (gimbal_serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500431] (-) TimerEvent: {}
+[0.596450] (gimbal_serial) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601102] (-) TimerEvent: {}
+[0.663165] (gimbal_serial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.671107] (gimbal_serial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.686410] (gimbal_serial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.701896] (-) TimerEvent: {}
+[0.711720] (gimbal_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.734499] (gimbal_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802107] (-) TimerEvent: {}
+[0.803468] (gimbal_serial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.806872] (gimbal_serial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.896356] (gimbal_serial) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.902305] (-) TimerEvent: {}
+[0.922475] (gimbal_serial) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.951520] (gimbal_serial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.964773] (gimbal_serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.002428] (-) TimerEvent: {}
+[1.034147] (gimbal_serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.034783] (gimbal_serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.102847] (-) TimerEvent: {}
+[1.109421] (gimbal_serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.110288] (gimbal_serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.178407] (gimbal_serial) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)\n'}
+[1.185718] (gimbal_serial) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.199866] (gimbal_serial) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.24 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.202957] (-) TimerEvent: {}
+[1.303204] (-) TimerEvent: {}
+[1.324588] (gimbal_serial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.403141] (gimbal_serial) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.403331] (-) TimerEvent: {}
+[1.403345] (gimbal_serial) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.403382] (gimbal_serial) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.406051] (gimbal_serial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.411641] (gimbal_serial) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.411899] (gimbal_serial) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.413105] (gimbal_serial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.414710] (gimbal_serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.426730] (gimbal_serial) StdoutLine: {'line': b'-- Generating done\n'}
+[1.429395] (gimbal_serial) StdoutLine: {'line': b'-- Build files have been written to: /home/mcr/Workspace/RM/rosBasics/build/gimbal_serial\n'}
+[1.439002] (gimbal_serial) CommandEnded: {'returncode': 0}
+[1.439776] (gimbal_serial) JobProgress: {'identifier': 'gimbal_serial', 'progress': 'build'}
+[1.439810] (gimbal_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial', '--', '-j4', '-l4'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.489015] (gimbal_serial) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/listener.dir/src/sub_pkg/src/listener.cpp.o\n'}
+[1.491007] (gimbal_serial) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/talker.dir/src/pub_pkg/src/talker.cpp.o\n'}
+[1.504813] (-) TimerEvent: {}
+[1.605061] (-) TimerEvent: {}
+[1.705252] (-) TimerEvent: {}
+[1.805507] (-) TimerEvent: {}
+[1.905944] (-) TimerEvent: {}
+[2.006295] (-) TimerEvent: {}
+[2.106768] (-) TimerEvent: {}
+[2.207253] (-) TimerEvent: {}
+[2.308761] (-) TimerEvent: {}
+[2.409459] (-) TimerEvent: {}
+[2.509794] (-) TimerEvent: {}
+[2.610129] (-) TimerEvent: {}
+[2.710609] (-) TimerEvent: {}
+[2.812864] (-) TimerEvent: {}
+[2.913099] (-) TimerEvent: {}
+[3.013466] (-) TimerEvent: {}
+[3.113916] (-) TimerEvent: {}
+[3.214188] (-) TimerEvent: {}
+[3.314481] (-) TimerEvent: {}
+[3.414815] (-) TimerEvent: {}
+[3.515139] (-) TimerEvent: {}
+[3.615974] (-) TimerEvent: {}
+[3.716903] (-) TimerEvent: {}
+[3.817210] (-) TimerEvent: {}
+[3.917448] (-) TimerEvent: {}
+[4.017819] (-) TimerEvent: {}
+[4.118166] (-) TimerEvent: {}
+[4.218523] (-) TimerEvent: {}
+[4.319476] (-) TimerEvent: {}
+[4.419697] (-) TimerEvent: {}
+[4.521164] (-) TimerEvent: {}
+[4.621434] (-) TimerEvent: {}
+[4.721833] (-) TimerEvent: {}
+[4.824769] (-) TimerEvent: {}
+[4.925581] (-) TimerEvent: {}
+[5.009184] (gimbal_serial) StdoutLine: {'line': b'[ 75%] Linking CXX executable talker\n'}
+[5.025853] (-) TimerEvent: {}
+[5.126357] (-) TimerEvent: {}
+[5.228944] (-) TimerEvent: {}
+[5.329736] (-) TimerEvent: {}
+[5.334427] (gimbal_serial) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.430004] (-) TimerEvent: {}
+[5.530940] (-) TimerEvent: {}
+[5.631512] (-) TimerEvent: {}
+[5.731855] (-) TimerEvent: {}
+[5.832602] (-) TimerEvent: {}
+[5.932772] (-) TimerEvent: {}
+[6.033066] (-) TimerEvent: {}
+[6.133383] (-) TimerEvent: {}
+[6.233965] (-) TimerEvent: {}
+[6.334228] (-) TimerEvent: {}
+[6.434510] (-) TimerEvent: {}
+[6.535066] (-) TimerEvent: {}
+[6.635527] (-) TimerEvent: {}
+[6.735999] (-) TimerEvent: {}
+[6.836205] (-) TimerEvent: {}
+[6.936404] (-) TimerEvent: {}
+[7.036589] (-) TimerEvent: {}
+[7.136868] (-) TimerEvent: {}
+[7.237286] (-) TimerEvent: {}
+[7.337560] (-) TimerEvent: {}
+[7.438104] (-) TimerEvent: {}
+[7.538498] (-) TimerEvent: {}
+[7.638766] (-) TimerEvent: {}
+[7.739048] (-) TimerEvent: {}
+[7.839335] (-) TimerEvent: {}
+[7.939718] (-) TimerEvent: {}
+[8.011815] (gimbal_serial) StdoutLine: {'line': b'[100%] Linking CXX executable listener\n'}
+[8.039895] (-) TimerEvent: {}
+[8.140113] (-) TimerEvent: {}
+[8.242017] (-) TimerEvent: {}
+[8.271722] (gimbal_serial) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.285413] (gimbal_serial) CommandEnded: {'returncode': 0}
+[8.287894] (gimbal_serial) JobProgress: {'identifier': 'gimbal_serial', 'progress': 'install'}
+[8.295168] (gimbal_serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial'], 'cwd': '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AUTO_LOCAL_ROUTING', 'false'), ('RUBBER_DUCK_AGENT', 'true'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT', 'false'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'mcr'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', ''), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/mcr/Workspace/RM/rosBasics/src/gimbal_serial'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('COPILOT_CLI', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1528'), ('IM_CONFIG_CHECK_ENV', '1'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10029'), ('COPILOT_HOME', '/home/mcr/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr'), ('JOURNAL_STREAM', '8:21356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINML_LOCAL_MODELS', 'false'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/home/mcr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/home/mcr/Applications/VSCode-linux-x64/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64'), ('SESSION_MANAGER', 'local/mcr-vmUbuntu:@/tmp/.ICE-unix/1528,unix/mcr-vmUbuntu:/tmp/.ICE-unix/1528'), ('INVOCATION_ID', '4df2b7c161eb4defbab3df65505041b9'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUO0X3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'd5b6995a-0e20-4ed9-8b52-d0f6180136ae'), ('SHELL', '/bin/bash'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('COPILOT_MCP_APPS', 'true'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial'), ('AUTO_APPROVAL', 'true'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=12a77cb01e928bd5b70fdee66ae42fe8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL', 'gpt-5.6-luna'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND,DYNAMIC_AUTO_TIERS'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.302775] (gimbal_serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.304263] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/talker\n'}
+[8.305740] (gimbal_serial) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/talker" to ""\n'}
+[8.305885] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/listener\n'}
+[8.309840] (gimbal_serial) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/listener" to ""\n'}
+[8.309957] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/package_run_dependencies/gimbal_serial\n'}
+[8.310280] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/parent_prefix_path/gimbal_serial\n'}
+[8.310530] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.sh\n'}
+[8.311168] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.dsv\n'}
+[8.311405] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.sh\n'}
+[8.311923] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.dsv\n'}
+[8.312365] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.bash\n'}
+[8.312586] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.sh\n'}
+[8.313056] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.zsh\n'}
+[8.313293] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.dsv\n'}
+[8.313929] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.dsv\n'}
+[8.314166] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/packages/gimbal_serial\n'}
+[8.314302] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig.cmake\n'}
+[8.314913] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig-version.cmake\n'}
+[8.315074] (gimbal_serial) StdoutLine: {'line': b'-- Installing: /home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.xml\n'}
+[8.316440] (gimbal_serial) CommandEnded: {'returncode': 0}
+[8.336585] (gimbal_serial) JobEnded: {'identifier': 'gimbal_serial', 'rc': 0}
+[8.336978] (-) EventReactorShutdown: {}

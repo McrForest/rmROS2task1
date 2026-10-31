@@ -1,0 +1,17 @@
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/talker
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/lib/gimbal_serial/listener
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/package_run_dependencies/gimbal_serial
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/parent_prefix_path/gimbal_serial
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.sh
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/ament_prefix_path.dsv
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.sh
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/environment/path.dsv
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.bash
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.sh
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.zsh
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/local_setup.dsv
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.dsv
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/ament_index/resource_index/packages/gimbal_serial
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig.cmake
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/cmake/gimbal_serialConfig-version.cmake
+/home/mcr/Workspace/RM/rosBasics/install/gimbal_serial/share/gimbal_serial/package.xml

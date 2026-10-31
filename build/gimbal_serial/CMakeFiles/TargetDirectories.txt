@@ -1,0 +1,11 @@
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/uninstall.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/gimbal_serial_uninstall.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/talker.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/listener.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/test.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/edit_cache.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/rebuild_cache.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/list_install_components.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/install.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/install/local.dir
+/home/mcr/Workspace/RM/rosBasics/build/gimbal_serial/CMakeFiles/install/strip.dir
